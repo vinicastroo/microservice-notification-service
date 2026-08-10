@@ -1,5 +1,7 @@
 # microservice-notification-service
 
+> This project used to live together with several other study projects in a single monorepo. It has since been split out into its own dedicated repository. See the original [estudos-ignite](https://github.com/vinicastroo/estudos-ignite) repo for more context.
+
 Study project of a notifications microservice built with NestJS, applying Clean Code and Clean Architecture concepts (entities, use cases and repositories decoupled from infrastructure), with persistence via Prisma and tests with Jest.
 
 Features: send, cancel, mark as read/unread, count and list a recipient's notifications.
