@@ -1,28 +1,28 @@
 # microservice-notification-service
 
-Projeto de estudos de um microsserviço de notificações construído com NestJS, aplicando conceitos de Clean Code e Clean Architecture (entidades, casos de uso e repositórios separados da infraestrutura), com persistência via Prisma e testes com Jest.
+Study project of a notifications microservice built with NestJS, applying Clean Code and Clean Architecture concepts (entities, use cases and repositories decoupled from infrastructure), with persistence via Prisma and tests with Jest.
 
-Funcionalidades: enviar, cancelar, marcar como lida/não lida, contar e listar notificações de um destinatário.
+Features: send, cancel, mark as read/unread, count and list a recipient's notifications.
 
-## Tecnologias
+## Tech stack
 
 - NestJS
 - Prisma (SQLite)
-- Jest (testes unitários e e2e)
+- Jest (unit and e2e tests)
 - TypeScript
 
-## Como rodar
+## How to run
 
 ```bash
 npm install
 
-# aplica as migrations no banco (SQLite)
+# applies migrations to the database (SQLite)
 npx prisma migrate dev
 
-# sobe a aplicação em modo desenvolvimento
+# starts the application in development mode
 npm run start:dev
 
-# roda os testes
+# runs the tests
 npm run test
 npm run test:e2e
 ```
